@@ -5,6 +5,7 @@ import {
   UseEffectTutorial,
   UseRefTutorial,
   UseLayoutTutorial,
+  UseImperativeHandleTutorial,
   PropsTutorial,
   ReduxTutorial,
  
@@ -19,6 +20,7 @@ function App() {
         <UseEffectTutorial />
         <UseRefTutorial />
         <UseLayoutTutorial />
+        <UseImperativeHandleTutorial/>
         <PropsTutorial />
         <ReduxTutorial />
       

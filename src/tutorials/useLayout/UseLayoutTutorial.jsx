@@ -6,21 +6,23 @@ import "./UseLayoutTutorial.scss";
 // useLayoutEffect comes first while useEffect is called after page rendered
 const UseLayoutTutorial = () => {
 const inputRef = useRef(null);
-  useEffect(() => {
-    inputRef.current.value = "Hello";
-    // console.log("1 UseEffect");
+  // useEffect(() => {
+  //   inputRef.current.value = "Hello";
+  //   // console.log("1 UseEffect");
 
-  }, []);
-
-  // useLayoutEffect(() => {
-  //   console.log(inputRef.current.value);
-  //   // console.log("1 UseLayoutEffect");
   // }, []);
+
+  useLayoutEffect(() => {
+    console.log(inputRef.current.value);
+    // console.log("1 UseLayoutEffect");
+  }, []);
   return (
     <div className="useLayoutTutorial">
       <h1>UseLayoutTutorial</h1>
       <div className="uselayoutexample">
-      <input ref={inputRef} value="John"  />
+      <input ref={inputRef} 
+      // value="John"
+        />
       </div>
     </div>
   );
