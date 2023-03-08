@@ -1,9 +1,9 @@
 import React from 'react'
 
-function UseEffect() {
+function UseEffectTutorial() {
   return (
     <div>UseEffect</div>
   )
 }
 
-export default UseEffect
+export default UseEffectTutorial

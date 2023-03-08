@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Redux() {
+function ReduxTutorial() {
   return (
     <div>Redux</div>
   )
 }
 
-export default Redux
+export default ReduxTutorial

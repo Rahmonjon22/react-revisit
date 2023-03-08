@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Props() {
+function PropsTutorial() {
   return (
     <div>Props</div>
   )
 }
 
-export default Props
+export default PropsTutorial;

@@ -1,4 +1,4 @@
-export { default as Props } from './props/Props';
-export { default as Redux } from './redux/Redux';
-export { default as UseEffect } from './useEffect/UseEffect';
-export { default as UseState } from './useState/UseState';
+export { default as PropsTutorial } from './props/PropsTutorial';
+export { default as ReduxTutorial } from './redux/ReduxTutorial';
+export { default as UseEffectTutorial } from './useEffect/UseEffectTutorial';
+export { default as UseStateTutorial } from './useState/UseStateTutorial';

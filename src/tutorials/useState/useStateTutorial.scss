@@ -1,0 +1,37 @@
+@import url('../../index.scss');
+
+.useStateTutorial{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 10px;
+    padding: 10px;
+    background-color: rgb(133, 94, 98);
+}
+button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: var(--lightGray-color);
+    font-size: 25px;
+    text-align: center;
+}
+.inputval{
+    margin: 20px;
+    padding: 20px;
+    input, p{
+        color: var(--black-color);
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        text-transform: capitalize;
+    }
+    p{
+        color: var(--lightGray-color);
+    }
+}
