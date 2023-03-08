@@ -1,14 +1,25 @@
 import React from "react";
-import { PropsTutorial, ReduxTutorial, UseStateTutorial, UseEffectTutorial } from "./tutorials/tutorials";
+import {
+  UseStateTutorial,
+  ReducerTutorial, 
+  UseEffectTutorial,
+  UseRefTutorial,
+  PropsTutorial,
+  ReduxTutorial,
+ 
+} from "./tutorials/tutorials";
 // hooks useState
 function App() {
   return (
     <>
       <div className="App">
-        <PropsTutorial/>
-        <ReduxTutorial/>
-        <UseEffectTutorial/>
-        <UseStateTutorial/>
+        <UseStateTutorial />
+        <ReducerTutorial />
+        <UseEffectTutorial />
+        <UseRefTutorial />
+        <PropsTutorial />
+        <ReduxTutorial />
+      
       </div>
     </>
   );
