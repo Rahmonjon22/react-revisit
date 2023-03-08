@@ -6,6 +6,9 @@ import {
   UseRefTutorial,
   UseLayoutTutorial,
   UseImperativeHandleTutorial,
+  UseContextTutorial,
+  UseMemoTutorial,
+  CallBackTutorial,
   PropsTutorial,
   ReduxTutorial,
  
@@ -21,9 +24,11 @@ function App() {
         <UseRefTutorial />
         <UseLayoutTutorial />
         <UseImperativeHandleTutorial/>
+        <UseContextTutorial />
+        <UseMemoTutorial/>
+        <CallBackTutorial/>
         <PropsTutorial />
         <ReduxTutorial />
-      
       </div>
     </>
   );
